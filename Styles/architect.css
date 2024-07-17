@@ -19,7 +19,7 @@ main {
   max-width: 1440px;
   margin: 0px auto;
 }
-section {
+section,footer {
   max-width: 1240px;
   margin: 0 auto;
 }
@@ -212,6 +212,22 @@ main > section {
   width: 100%;
 }
 
+/* footer */
+footer{
+    margin-top: 111px;
+    border-radius: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(255, 244, 231);
+}
+.footer-container{
+    padding: 33px 353px;
+    width:533px ;
+    font-size: 1.06rem;
+    /* margin: 0 auto; */
+}
+
 /* responsive media query */
 
 @media screen and (max-width: 576px) {
@@ -249,7 +265,9 @@ main > section {
     align-items: center;
     display: block;
   }
+ 
 }
+
 
 /* medium device */
 
